@@ -88,7 +88,6 @@
                 android:id="@+id/t1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:textSize="15dp"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorPrimaryDark"/>
@@ -117,7 +116,7 @@
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
-                android:text="TextView" />
+                />
         </TableRow>
 
         <TableRow
@@ -140,7 +139,6 @@
                 android:id="@+id/t3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp"
                 android:layout_gravity="center_vertical"
@@ -166,7 +164,6 @@
                 android:id="@+id/t4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:textSize="15dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
@@ -192,7 +189,6 @@
                 android:id="@+id/t5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp"
                 android:gravity="center_vertical"
@@ -219,7 +215,6 @@
                 android:id="@+id/t6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:textSize="15dp"
                 android:textColor="#fb3d3d"
                 android:gravity="center_vertical"

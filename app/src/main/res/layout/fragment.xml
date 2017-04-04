@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.55"
+        android:padding="10dp"
+        android:background="#ff8c8c">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#e9e9e9"
+            >
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="사과 Talbe(비어있음)"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="포도 Talbe(비어있음)"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="키위 Talbe(비어있음)"
+                android:background="#ffffff"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="자몽 Talbe(비어있음)"
+                android:background="#ffffff"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="테이블명"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimaryDark"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/t2111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입장시간"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_vertical"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스파게티"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="피자"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="멤버쉽카드"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffd1d1">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가격"
+                android:textSize="15dp"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15dp"
+                android:textColor="#fb3d3d"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="새 주문" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정보수정" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초기화" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

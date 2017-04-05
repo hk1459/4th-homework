@@ -22,7 +22,7 @@
                 android:id="@+id/b1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="사과 Talbe(비어있음)"
+                android:text="사과 Table(비어있음)"
                 android:paddingLeft="15dp"
                 android:gravity="center_vertical"
                 android:background="#ffffff"
@@ -33,7 +33,7 @@
                 android:id="@+id/b2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="포도 Talbe(비어있음)"
+                android:text="포도 Table(비어있음)"
                 android:paddingLeft="15dp"
                 android:gravity="center_vertical"
                 android:background="#ffffff"
@@ -44,7 +44,7 @@
                 android:id="@+id/b3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="키위 Talbe(비어있음)"
+                android:text="키위 Table(비어있음)"
                 android:background="#ffffff"
                 android:paddingLeft="15dp"
                 android:gravity="center_vertical"
@@ -55,7 +55,7 @@
                 android:id="@+id/b4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="자몽 Talbe(비어있음)"
+                android:text="자몽 Table(비어있음)"
                 android:background="#ffffff"
                 android:paddingLeft="15dp"
                 android:gravity="center_vertical"
@@ -89,8 +89,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
+
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/colorPrimaryDark"/>
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_span="2"/>
         </TableRow>
 
         <TableRow
@@ -113,9 +115,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
+                android:text=""
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
+                android:layout_span="2"
                 />
         </TableRow>
 
@@ -133,6 +137,7 @@
                 android:paddingLeft="15dp"
                 android:gravity="center_vertical"
                 android:layout_gravity="center_vertical"
+
                 />
 
             <TextView
@@ -141,8 +146,10 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp"
+                android:text=""
                 android:layout_gravity="center_vertical"
-                android:gravity="center_vertical"/>
+                android:gravity="center_vertical"
+                android:layout_span="2"/>
         </TableRow>
 
         <TableRow
@@ -165,9 +172,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
+                android:text=""
                 android:textColor="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
-                android:layout_gravity="center_vertical"/>
+                android:layout_gravity="center_vertical"
+                android:layout_span="2"/>
         </TableRow>
 
         <TableRow
@@ -191,8 +200,10 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp"
+                android:text=""
                 android:gravity="center_vertical"
-                android:layout_gravity="center_vertical"/>
+                android:layout_gravity="center_vertical"
+                android:layout_span="2"/>
         </TableRow>
 
         <TableRow
@@ -217,8 +228,10 @@
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
                 android:textColor="#fb3d3d"
+                android:text=""
                 android:gravity="center_vertical"
-                android:layout_gravity="center_vertical"/>
+                android:layout_gravity="center_vertical"
+                android:layout_span="2"/>
         </TableRow>
 
         <TableRow

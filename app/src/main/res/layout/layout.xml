@@ -2,7 +2,8 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="*">
+    android:stretchColumns="*"
+    android:padding="15dp">
 
     <TableRow
         android:layout_width="match_parent"
@@ -16,11 +17,12 @@
             android:textSize="15dp"/>
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
+            android:layout_span="2"
             />
 
     </TableRow>
@@ -41,7 +43,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            android:layout_span="2"/>
     </TableRow>
 
     <TableRow
@@ -60,7 +63,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            android:layout_span="2"/>
     </TableRow>
 
     <TableRow
@@ -72,14 +76,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="피자"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            />
 
         <EditText
             android:id="@+id/editText4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카드 선택" />
+
+        <RadioGroup>
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기본멤버쉽" />
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIP멤버쉽" />
+        </RadioGroup>
+
+
+
     </TableRow>
 
 </TableLayout>

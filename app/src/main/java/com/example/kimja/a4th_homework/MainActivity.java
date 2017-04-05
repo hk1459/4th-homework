@@ -56,6 +56,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b6.setOnClickListener(this);
         b7.setOnClickListener(this);
 
+        b1.setText("사과 Table(비어있음)");
+        b2.setText("포도 Table(비어있음)");
+        b3.setText("키위 Table(비어있음)");
+        b4.setText("자몽 Table(비어있음)");
+
+
     }
 
 
@@ -70,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             load(apple);
         }
         else if(v.getId() == R.id.b2){
-            if(b1.getText().toString() == "포도 Table(비어있음)") {
+            if(b2.getText().toString() == "포도 Table(비어있음)") {
                 Toast.makeText(getApplicationContext(),"비어있는 테이블입니다.",Toast.LENGTH_SHORT).show();
             }
             t1.setText("포도 테이블");
@@ -78,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             load(grape);
         }
         else if(v.getId() == R.id.b3){
-            if(b1.getText().toString() == "키위 Table(비어있음)") {
+            if(b3.getText().toString() == "키위 Table(비어있음)") {
                 Toast.makeText(getApplicationContext(),"비어있는 테이블입니다.",Toast.LENGTH_SHORT).show();
             }
             t1.setText("키위 테이블");
@@ -86,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             load(kiwi);
         }
         else if(v.getId() == R.id.b4){
-            if(b1.getText().toString() == "자몽 Table(비어있음)") {
+            if(b4.getText().toString() == "자몽 Table(비어있음)") {
                 Toast.makeText(getApplicationContext(),"비어있는 테이블입니다.",Toast.LENGTH_SHORT).show();
             }
             t1.setText("자몽 테이블");
@@ -125,15 +131,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 apple.info();
             }
             if(t1.getText()=="포도 테이블") {
-                b1.setText("포도 Table(비어있음)");
+                b2.setText("포도 Table(비어있음)");
                 grape.info();
             }
             if(t1.getText()=="키위 테이블") {
-                b1.setText("키위 Table(비어있음)");
+                b3.setText("키위 Table(비어있음)");
                 kiwi.info();
             }
             if(t1.getText()=="자몽 테이블") {
-                b1.setText("자몽 Table(비어있음)");
+                b4.setText("자몽 Table(비어있음)");
                 grapefruit.info();
             }
             t2.setText("");
@@ -212,18 +218,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if(t1.getText().toString() == "사과 테이블"){
                             apple.info(table.getText().toString(),time.getText().toString(),spa.getText().toString(),pizza.getText().toString(),card,totalprice);
                             load(apple);
+                            b1.setText("사과 Table");
                         }
                         else if (t1.getText().toString() == "포도 테이블"){
                             grape.info(table.getText().toString(),time.getText().toString(),spa.getText().toString(),pizza.getText().toString(),card,totalprice);
                             load(grape);
+                            b2.setText("포도 Table");
                         }
                         else if (t1.getText().toString() == "키위 테이블"){
                             kiwi.info(table.getText().toString(),time.getText().toString(),spa.getText().toString(),pizza.getText().toString(),card,totalprice);
                             load(kiwi);
+                            b3.setText("키위 Table");
                         }
                         else if (t1.getText().toString() == "자몽 테이블"){
                             grapefruit.info(table.getText().toString(),time.getText().toString(),spa.getText().toString(),pizza.getText().toString(),card,totalprice);
                             load(grapefruit);
+                            b4.setText("자몽 Table");
                         }
                         //스낵바로 띄우기
                         Snackbar.make(v, "정보가 입력되었습니다.", 1000).setAction("확인", new View.OnClickListener() {
